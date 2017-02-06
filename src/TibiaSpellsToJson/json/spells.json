@@ -1,0 +1,3450 @@
+[
+  {
+    "SoulPoints": 5,
+    "Charges": 1,
+    "Name": "Animate Dead Rune",
+    "Formula": "adana mort",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 27,
+    "ManaCost": 600,
+    "PriceToLearn": 1200,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "var.",
+    "Name": "Annihilation",
+    "Formula": "exori gran ico",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "30s ",
+    "GroupCooldown": "4s",
+    "MinimunLevel": 110,
+    "ManaCost": 300,
+    "PriceToLearn": 20000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Fire",
+    "Name": "Apprentice's Strike",
+    "Formula": "exori min flam",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 8,
+    "ManaCost": 6,
+    "PriceToLearn": 0,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Arrow Call",
+    "Formula": "exevo infir con",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 1,
+    "ManaCost": 10,
+    "PriceToLearn": 0,
+    "CitiesToLearn": [
+      "Dawnport"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 3,
+    "Charges": 4,
+    "Name": "Avalanche Rune",
+    "Formula": "adori mas frigo",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 30,
+    "ManaCost": 530,
+    "PriceToLearn": 1200,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "Var.",
+    "Name": "Berserk",
+    "Formula": "exori",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "4s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 35,
+    "ManaCost": 115,
+    "PriceToLearn": 2500,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Blood Rage",
+    "Formula": "utito tempo",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 60,
+    "ManaCost": 290,
+    "PriceToLearn": 8000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Bruise Bane",
+    "Formula": "exura infir ico",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "1s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 1,
+    "ManaCost": 10,
+    "PriceToLearn": 0,
+    "CitiesToLearn": [
+      "Dawnport"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "var.",
+    "Name": "Brutal Strike",
+    "Formula": "exori ico",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "6s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 16,
+    "ManaCost": 30,
+    "PriceToLearn": 1000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Energy",
+    "Name": "Buzz",
+    "Formula": "exori infir vis",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 1,
+    "ManaCost": 6,
+    "PriceToLearn": 0,
+    "CitiesToLearn": [
+      "Dawnport"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Cancel Invisibility",
+    "Formula": "exana ina",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 26,
+    "ManaCost": 200,
+    "PriceToLearn": 1600,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Challenge",
+    "Formula": "exeta res",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 20,
+    "ManaCost": 30,
+    "PriceToLearn": 2000,
+    "CitiesToLearn": [
+      "Eremo's isle"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 2,
+    "Charges": 1,
+    "Name": "Chameleon Rune",
+    "Formula": "adevo ina",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 27,
+    "ManaCost": 600,
+    "PriceToLearn": 1300,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Charge",
+    "Formula": "utani tempo hur",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 25,
+    "ManaCost": 100,
+    "PriceToLearn": 1300,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Ice",
+    "Name": "Chill Out",
+    "Formula": "exevo infir frigo hur",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "4s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 1,
+    "ManaCost": 8,
+    "PriceToLearn": 0,
+    "CitiesToLearn": [
+      "Dawnport"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Conjure Arrow",
+    "Formula": "exevo con",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 13,
+    "ManaCost": 100,
+    "PriceToLearn": 450,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Conjure Bolt",
+    "Formula": "exevo con mort",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 17,
+    "ManaCost": 140,
+    "PriceToLearn": 750,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Conjure Explosive Arrow",
+    "Formula": "exevo con flam",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 25,
+    "ManaCost": 290,
+    "PriceToLearn": 1000,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Conjure Piercing Bolt",
+    "Formula": "exevo con grav",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 33,
+    "ManaCost": 180,
+    "PriceToLearn": 850,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Conjure Poisoned Arrow",
+    "Formula": "exevo con pox",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 16,
+    "ManaCost": 130,
+    "PriceToLearn": 700,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Conjure Power Bolt",
+    "Formula": "exevo con vis",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 59,
+    "ManaCost": 700,
+    "PriceToLearn": 2000,
+    "CitiesToLearn": [
+      "Eremo's isle"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Conjure Sniper Arrow",
+    "Formula": "exevo con hur",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 24,
+    "ManaCost": 160,
+    "PriceToLearn": 800,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 3,
+    "Charges": 1,
+    "Name": "Convince Creature Rune",
+    "Formula": "adeta sio",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 16,
+    "ManaCost": 200,
+    "PriceToLearn": 800,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Creature Illusion",
+    "Formula": "utevo res ina \"creature\"",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 23,
+    "ManaCost": 100,
+    "PriceToLearn": 1000,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Cure Bleeding",
+    "Formula": "exana kor",
+    "VocationToCast": [
+      "Knight",
+      "Druid"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "6s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 45,
+    "ManaCost": 30,
+    "PriceToLearn": 2500,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Cure Burning",
+    "Formula": "exana flam",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "6s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 30,
+    "ManaCost": 30,
+    "PriceToLearn": 2000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Cure Curse",
+    "Formula": "exana mort",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "6s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 80,
+    "ManaCost": 40,
+    "PriceToLearn": 6000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Cure Electrification",
+    "Formula": "exana vis",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "6s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 22,
+    "ManaCost": 30,
+    "PriceToLearn": 1000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Cure Poison",
+    "Formula": "exana pox",
+    "VocationToCast": [
+      "Druid",
+      "Knight",
+      "Paladin",
+      "Sorcerer"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "6s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 10,
+    "ManaCost": 30,
+    "PriceToLearn": 150,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 1,
+    "Charges": 1,
+    "Name": "Cure Poison Rune",
+    "Formula": "adana pox",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 15,
+    "ManaCost": 200,
+    "PriceToLearn": 600,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "Death",
+    "Name": "Curse",
+    "Formula": "utori mort",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "50s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 75,
+    "ManaCost": 30,
+    "PriceToLearn": 6000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Death",
+    "Name": "Death Strike",
+    "Formula": "exori mort",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 16,
+    "ManaCost": 20,
+    "PriceToLearn": 800,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 2,
+    "Charges": 3,
+    "Name": "Destroy Field Rune",
+    "Formula": "adito grav",
+    "VocationToCast": [
+      "Druid",
+      "Paladin",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 17,
+    "ManaCost": 120,
+    "PriceToLearn": 700,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 3,
+    "Charges": 3,
+    "Name": "Disintegrate Rune",
+    "Formula": "adito tera",
+    "VocationToCast": [
+      "Druid",
+      "Paladin",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 21,
+    "ManaCost": 200,
+    "PriceToLearn": 900,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Holy",
+    "Name": "Divine Caldera",
+    "Formula": "exevo mas san",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "4s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 50,
+    "ManaCost": 160,
+    "PriceToLearn": 3000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Divine Healing",
+    "Formula": "exura san",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "1s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 35,
+    "ManaCost": 160,
+    "PriceToLearn": 3000,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "Holy",
+    "Name": "Divine Missile",
+    "Formula": "exori san",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 40,
+    "ManaCost": 20,
+    "PriceToLearn": 1800,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Energy",
+    "Name": "Electrify",
+    "Formula": "utori vis",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "30s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 34,
+    "ManaCost": 30,
+    "PriceToLearn": 2500,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Enchant Party",
+    "Formula": "utori mas sio",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 32,
+    "ManaCost": 0,
+    "PriceToLearn": 4000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Enchant Spear",
+    "Formula": "exeta con",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 45,
+    "ManaCost": 350,
+    "PriceToLearn": 2000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Enchant Staff",
+    "Formula": "exeta vis",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 41,
+    "ManaCost": 80,
+    "PriceToLearn": 2000,
+    "CitiesToLearn": [
+      "Eremo's isle"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Energy",
+    "Name": "Energy Beam",
+    "Formula": "exevo vis lux",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "4s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 23,
+    "ManaCost": 40,
+    "PriceToLearn": 1000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 5,
+    "Charges": 2,
+    "Name": "Energy Bomb Rune",
+    "Formula": "adevo mas vis",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 37,
+    "ManaCost": 880,
+    "PriceToLearn": 2300,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 2,
+    "Charges": 3,
+    "Name": "Energy Field Rune",
+    "Formula": "adevo grav vis",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 18,
+    "ManaCost": 320,
+    "PriceToLearn": 700,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "Energy",
+    "Name": "Energy Strike",
+    "Formula": "exori vis",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 12,
+    "ManaCost": 20,
+    "PriceToLearn": 800,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 5,
+    "Charges": 4,
+    "Name": "Energy Wall Rune",
+    "Formula": "adevo mas grav vis",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 41,
+    "ManaCost": 1000,
+    "PriceToLearn": 2500,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "Energy",
+    "Name": "Energy Wave",
+    "Formula": "exevo vis hur",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "8s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 38,
+    "ManaCost": 170,
+    "PriceToLearn": 2500,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "Earth",
+    "Name": "Envenom",
+    "Formula": "utori pox",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "40s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 50,
+    "ManaCost": 30,
+    "PriceToLearn": 6000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Ice",
+    "Name": "Eternal Winter",
+    "Formula": "exevo gran mas frigo",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "40s ",
+    "GroupCooldown": "4s",
+    "MinimunLevel": 60,
+    "ManaCost": 1050,
+    "PriceToLearn": 8000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Physical",
+    "Name": "Ethereal Spear",
+    "Formula": "exori con",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 23,
+    "ManaCost": 25,
+    "PriceToLearn": 1100,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 4,
+    "Charges": 6,
+    "Name": "Explosion Rune",
+    "Formula": "adevo mas hur",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 31,
+    "ManaCost": 570,
+    "PriceToLearn": 1800,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "Var.",
+    "Name": "Fierce Berserk",
+    "Formula": "exori gran",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "6s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 90,
+    "ManaCost": 340,
+    "PriceToLearn": 7500,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Find Person",
+    "Formula": "exiva \"name\"",
+    "VocationToCast": [
+      "Druid",
+      "Knight",
+      "Paladin",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 8,
+    "ManaCost": 20,
+    "PriceToLearn": 80,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 4,
+    "Charges": 2,
+    "Name": "Fire Bomb Rune",
+    "Formula": "adevo mas flam",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 27,
+    "ManaCost": 600,
+    "PriceToLearn": 1500,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 1,
+    "Charges": 3,
+    "Name": "Fire Field Rune",
+    "Formula": "adevo grav flam",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 15,
+    "ManaCost": 240,
+    "PriceToLearn": 500,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 4,
+    "Charges": 4,
+    "Name": "Fire Wall Rune",
+    "Formula": "adevo mas grav flam",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 33,
+    "ManaCost": 780,
+    "PriceToLearn": 2000,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "Fire",
+    "Name": "Fire Wave",
+    "Formula": "exevo flam hur",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "4s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 18,
+    "ManaCost": 25,
+    "PriceToLearn": 850,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 3,
+    "Charges": 5,
+    "Name": "Fireball Rune",
+    "Formula": "adori flam",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 27,
+    "ManaCost": 460,
+    "PriceToLearn": 1600,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Fire",
+    "Name": "Flame Strike",
+    "Formula": "exori flam",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 14,
+    "ManaCost": 20,
+    "PriceToLearn": 800,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Food",
+    "Formula": "exevo pan",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 14,
+    "ManaCost": 120,
+    "PriceToLearn": 300,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "var.",
+    "Name": "Front Sweep",
+    "Formula": "exori min",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "6s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 70,
+    "ManaCost": 200,
+    "PriceToLearn": 4000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Energy",
+    "Name": "Great Energy Beam",
+    "Formula": "exevo gran vis lux",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "6s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 29,
+    "ManaCost": 110,
+    "PriceToLearn": 1800,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 3,
+    "Charges": 4,
+    "Name": "Great Fireball Rune",
+    "Formula": "adori mas flam",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 30,
+    "ManaCost": 530,
+    "PriceToLearn": 1200,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Great Light",
+    "Formula": "utevo gran lux",
+    "VocationToCast": [
+      "Druid",
+      "Knight",
+      "Paladin",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 13,
+    "ManaCost": 60,
+    "PriceToLearn": 500,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "Var.",
+    "Name": "Groundshaker",
+    "Formula": "exori mas",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "8s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 33,
+    "ManaCost": 160,
+    "PriceToLearn": 1500,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Haste",
+    "Formula": "utani hur",
+    "VocationToCast": [
+      "Druid",
+      "Knight",
+      "Paladin",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 14,
+    "ManaCost": 60,
+    "PriceToLearn": 600,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Heal Friend",
+    "Formula": "exura sio \"name\"",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "1s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 18,
+    "ManaCost": 140,
+    "PriceToLearn": 800,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Heal Party",
+    "Formula": "utura mas sio",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 32,
+    "ManaCost": 0,
+    "PriceToLearn": 4000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 2,
+    "Charges": 10,
+    "Name": "Heavy Magic Missile Rune",
+    "Formula": "adori vis",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 25,
+    "ManaCost": 350,
+    "PriceToLearn": 1500,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "Fire",
+    "Name": "Hell's Core",
+    "Formula": "exevo gran mas flam",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "40s ",
+    "GroupCooldown": "4s",
+    "MinimunLevel": 60,
+    "ManaCost": 1100,
+    "PriceToLearn": 8000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Holy",
+    "Name": "Holy Flash",
+    "Formula": "utori san",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "40s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 70,
+    "ManaCost": 30,
+    "PriceToLearn": 7500,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 3,
+    "Charges": 5,
+    "Name": "Holy Missile Rune",
+    "Formula": "adori san",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 27,
+    "ManaCost": 300,
+    "PriceToLearn": 1600,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Ice",
+    "Name": "Ice Strike",
+    "Formula": "exori frigo",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 15,
+    "ManaCost": 20,
+    "PriceToLearn": 800,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Ice",
+    "Name": "Ice Wave",
+    "Formula": "exevo frigo hur",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "4s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 18,
+    "ManaCost": 25,
+    "PriceToLearn": 850,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 3,
+    "Charges": 5,
+    "Name": "Icicle Rune",
+    "Formula": "adori frigo",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 28,
+    "ManaCost": 460,
+    "PriceToLearn": 1700,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Fire",
+    "Name": "Ignite",
+    "Formula": "utori flam",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "30s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 26,
+    "ManaCost": 30,
+    "PriceToLearn": 1500,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Physical",
+    "Name": "Inflict Wound",
+    "Formula": "utori kor",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "30s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 40,
+    "ManaCost": 30,
+    "PriceToLearn": 2500,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Intense Healing",
+    "Formula": "exura gran",
+    "VocationToCast": [
+      "Druid",
+      "Paladin",
+      "Sorcerer"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "1s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 20,
+    "ManaCost": 70,
+    "PriceToLearn": 350,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 2,
+    "Charges": 1,
+    "Name": "Intense Healing Rune",
+    "Formula": "adura gran",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 15,
+    "ManaCost": 120,
+    "PriceToLearn": 600,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Intense Recovery",
+    "Formula": "utura gran",
+    "VocationToCast": [
+      "Knight",
+      "Paladin"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "60s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 100,
+    "ManaCost": 165,
+    "PriceToLearn": 10000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Intense Wound Cleansing",
+    "Formula": "exura gran ico",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "600s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 80,
+    "ManaCost": 200,
+    "PriceToLearn": 6000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Invisible",
+    "Formula": "utana vid",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 35,
+    "ManaCost": 440,
+    "PriceToLearn": 2000,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Levitate",
+    "Formula": "exani hur \"up|down\"",
+    "VocationToCast": [
+      "Druid",
+      "Knight",
+      "Paladin",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 12,
+    "ManaCost": 50,
+    "PriceToLearn": 500,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Light",
+    "Formula": "utevo lux",
+    "VocationToCast": [
+      "Druid",
+      "Knight",
+      "Paladin",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 8,
+    "ManaCost": 20,
+    "PriceToLearn": 0,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Light Healing",
+    "Formula": "exura",
+    "VocationToCast": [
+      "Druid",
+      "Paladin",
+      "Sorcerer"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "1s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 8,
+    "ManaCost": 20,
+    "PriceToLearn": 0,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 1,
+    "Charges": 10,
+    "Name": "Light Magic Missile Rune",
+    "Formula": "adori min vis",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 15,
+    "ManaCost": 120,
+    "PriceToLearn": 500,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "Energy",
+    "Name": "Lightning",
+    "Formula": "exori amp vis",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack (Secondary Group: Special)",
+    "Type": "Instant",
+    "Cooldown": "8s ",
+    "GroupCooldown": "2s ,Secondary Group: 8s",
+    "MinimunLevel": 55,
+    "ManaCost": 60,
+    "PriceToLearn": 5000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Magic Patch",
+    "Formula": "exura infir",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer",
+      "Paladin"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "1s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 1,
+    "ManaCost": 6,
+    "PriceToLearn": 0,
+    "CitiesToLearn": [
+      "Dawnport"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Magic Rope",
+    "Formula": "exani tera",
+    "VocationToCast": [
+      "Druid",
+      "Knight",
+      "Paladin",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 9,
+    "ManaCost": 20,
+    "PriceToLearn": 200,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Magic Shield",
+    "Formula": "utamo vita",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 14,
+    "ManaCost": 50,
+    "PriceToLearn": 450,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 5,
+    "Charges": 3,
+    "Name": "Magic Wall Rune",
+    "Formula": "adevo grav tera",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 32,
+    "ManaCost": 750,
+    "PriceToLearn": 2100,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Mass Healing",
+    "Formula": "exura gran mas res",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 36,
+    "ManaCost": 150,
+    "PriceToLearn": 2200,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Earth",
+    "Name": "Mud Attack",
+    "Formula": "exori infir tera",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 1,
+    "ManaCost": 6,
+    "PriceToLearn": 0,
+    "CitiesToLearn": [
+      "Dawnport"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 3,
+    "Charges": 1,
+    "Name": "Paralyse Rune",
+    "Formula": "adana ani",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 54,
+    "ManaCost": 1400,
+    "PriceToLearn": 1900,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Physical",
+    "Name": "Physical Strike",
+    "Formula": "exori moe ico",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 16,
+    "ManaCost": 20,
+    "PriceToLearn": 800,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 2,
+    "Charges": 2,
+    "Name": "Poison Bomb Rune",
+    "Formula": "adevo mas pox",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 25,
+    "ManaCost": 520,
+    "PriceToLearn": 1000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 1,
+    "Charges": 3,
+    "Name": "Poison Field Rune",
+    "Formula": "adevo grav pox",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 14,
+    "ManaCost": 200,
+    "PriceToLearn": 300,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 3,
+    "Charges": 4,
+    "Name": "Poison Wall Rune",
+    "Formula": "adevo mas grav pox",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 29,
+    "ManaCost": 640,
+    "PriceToLearn": 1600,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Protect Party",
+    "Formula": "utamo mas sio",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 32,
+    "ManaCost": 0,
+    "PriceToLearn": 4000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Protector",
+    "Formula": "utamo tempo",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 55,
+    "ManaCost": 200,
+    "PriceToLearn": 6000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Energy",
+    "Name": "Rage of the Skies",
+    "Formula": "exevo gran mas vis",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "40s ",
+    "GroupCooldown": "4s",
+    "MinimunLevel": 55,
+    "ManaCost": 600,
+    "PriceToLearn": 6000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Recovery",
+    "Formula": "utura",
+    "VocationToCast": [
+      "Knight",
+      "Paladin"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "60s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 50,
+    "ManaCost": 75,
+    "PriceToLearn": 4000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Salvation",
+    "Formula": "exura gran san",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "1s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 60,
+    "ManaCost": 210,
+    "PriceToLearn": 8000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Fire",
+    "Name": "Scorch",
+    "Formula": "exevo infir flam hur",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "4s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 1,
+    "ManaCost": 8,
+    "PriceToLearn": 0,
+    "CitiesToLearn": [
+      "Dawnport"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Sharpshooter",
+    "Formula": "utito tempo san",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 60,
+    "ManaCost": 450,
+    "PriceToLearn": 8000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 3,
+    "Charges": 3,
+    "Name": "Soulfire Rune",
+    "Formula": "adevo res flam",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 27,
+    "ManaCost": 420,
+    "PriceToLearn": 1800,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 2,
+    "Charges": 10,
+    "Name": "Stalagmite Rune",
+    "Formula": "adori tera",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 24,
+    "ManaCost": 350,
+    "PriceToLearn": 1400,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 3,
+    "Charges": 4,
+    "Name": "Stone Shower Rune",
+    "Formula": "adori mas tera",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 28,
+    "ManaCost": 430,
+    "PriceToLearn": 1100,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Energy",
+    "Name": "Strong Energy Strike",
+    "Formula": "exori gran vis",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack (Secondary Group: Special)",
+    "Type": "Instant",
+    "Cooldown": "8s ",
+    "GroupCooldown": "2s ,Secondary Group: 8s",
+    "MinimunLevel": 80,
+    "ManaCost": 60,
+    "PriceToLearn": 7500,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Holy",
+    "Name": "Strong Ethereal Spear",
+    "Formula": "exori gran con",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "8s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 90,
+    "ManaCost": 55,
+    "PriceToLearn": 10000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Fire",
+    "Name": "Strong Flame Strike",
+    "Formula": "exori gran flam",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack (Secondary Group: Special)",
+    "Type": "Instant",
+    "Cooldown": "8s ",
+    "GroupCooldown": "2s ,Secondary Group: 8s",
+    "MinimunLevel": 70,
+    "ManaCost": 60,
+    "PriceToLearn": 6000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Strong Haste",
+    "Formula": "utani gran hur",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 20,
+    "ManaCost": 100,
+    "PriceToLearn": 1300,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Ice",
+    "Name": "Strong Ice Strike",
+    "Formula": "exori gran frigo",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Attack (Secondary Group: Special)",
+    "Type": "Instant",
+    "Cooldown": "8s ",
+    "GroupCooldown": "2s ,Secondary Group: 8s",
+    "MinimunLevel": 80,
+    "ManaCost": 60,
+    "PriceToLearn": 6000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Ice",
+    "Name": "Strong Ice Wave",
+    "Formula": "exevo gran frigo hur",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "8s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 40,
+    "ManaCost": 170,
+    "PriceToLearn": 7500,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Earth",
+    "Name": "Strong Terra Strike",
+    "Formula": "exori gran tera",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Attack (Secondary Group: Special)",
+    "Type": "Instant",
+    "Cooldown": "8s ",
+    "GroupCooldown": "2s ,Secondary Group: 8s",
+    "MinimunLevel": 70,
+    "ManaCost": 60,
+    "PriceToLearn": 6000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 5,
+    "Charges": 3,
+    "Name": "Sudden Death Rune",
+    "Formula": "adori gran mort",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 45,
+    "ManaCost": 985,
+    "PriceToLearn": 3000,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Summon Creature",
+    "Formula": "utevo res \"creature\"",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 25,
+    "ManaCost": 0,
+    "PriceToLearn": 2000,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": null,
+    "Name": "Swift Foot",
+    "Formula": "utamo tempo san",
+    "VocationToCast": [
+      "Paladin"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 55,
+    "ManaCost": 400,
+    "PriceToLearn": 6000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Earth",
+    "Name": "Terra Strike",
+    "Formula": "exori tera",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 13,
+    "ManaCost": 20,
+    "PriceToLearn": 800,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Earth",
+    "Name": "Terra Wave",
+    "Formula": "exevo tera hur",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "4s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 38,
+    "ManaCost": 210,
+    "PriceToLearn": 2500,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 3,
+    "Charges": 4,
+    "Name": "Thunderstorm Rune",
+    "Formula": "adori mas vis",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 28,
+    "ManaCost": 430,
+    "PriceToLearn": 1100,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Train Party",
+    "Formula": "utito mas sio",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 32,
+    "ManaCost": 0,
+    "PriceToLearn": 4000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Energy",
+    "Name": "Ultimate Energy Strike",
+    "Formula": "exori max vis",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "30s ",
+    "GroupCooldown": "4s",
+    "MinimunLevel": 100,
+    "ManaCost": 100,
+    "PriceToLearn": 15000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Fire",
+    "Name": "Ultimate Flame Strike",
+    "Formula": "exori max flam",
+    "VocationToCast": [
+      "Sorcerer"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "30s ",
+    "GroupCooldown": "4s",
+    "MinimunLevel": 90,
+    "ManaCost": 100,
+    "PriceToLearn": 15000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Ultimate Healing",
+    "Formula": "exura vita",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "1s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 30,
+    "ManaCost": 160,
+    "PriceToLearn": 1000,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "SoulPoints": 3,
+    "Charges": 1,
+    "Name": "Ultimate Healing Rune",
+    "Formula": "adura vita",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 24,
+    "ManaCost": 400,
+    "PriceToLearn": 1500,
+    "CitiesToLearn": [
+      "Ab'Dendriel",
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "Ice",
+    "Name": "Ultimate Ice Strike",
+    "Formula": "exori max frigo",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "30s ",
+    "GroupCooldown": "4s",
+    "MinimunLevel": 100,
+    "ManaCost": 100,
+    "PriceToLearn": 15000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Ultimate Light",
+    "Formula": "utevo vis lux",
+    "VocationToCast": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "Group": "Support",
+    "Type": "Instant",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 26,
+    "ManaCost": 140,
+    "PriceToLearn": 1600,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Earth",
+    "Name": "Ultimate Terra Strike",
+    "Formula": "exori max tera",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "30s ",
+    "GroupCooldown": "4s",
+    "MinimunLevel": 90,
+    "ManaCost": 100,
+    "PriceToLearn": 15000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": "Var.",
+    "Name": "Whirlwind Throw",
+    "Formula": "exori hur",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "6s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 28,
+    "ManaCost": 40,
+    "PriceToLearn": 1500,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Darashia",
+      "Edron",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Yalahar"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "SoulPoints": 5,
+    "Charges": 2,
+    "Name": "Wild Growth Rune",
+    "Formula": "adevo grav vita",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Support",
+    "Type": "Rune",
+    "Cooldown": "2s ",
+    "GroupCooldown": "2s",
+    "MinimunLevel": 27,
+    "ManaCost": 600,
+    "PriceToLearn": 2000,
+    "CitiesToLearn": [
+      "Eremo's isle"
+    ],
+    "PremiumOnly": true
+  },
+  {
+    "DamageType": null,
+    "Name": "Wound Cleansing",
+    "Formula": "exura ico",
+    "VocationToCast": [
+      "Knight"
+    ],
+    "Group": "Healing",
+    "Type": "Instant",
+    "Cooldown": "1s ",
+    "GroupCooldown": "1s",
+    "MinimunLevel": 8,
+    "ManaCost": 40,
+    "PriceToLearn": 0,
+    "CitiesToLearn": [
+      "Ankrahmun",
+      "Carlin",
+      "Darashia",
+      "Edron",
+      "Kazordoon",
+      "Liberty Bay",
+      "Port Hope",
+      "Svargrond",
+      "Thais",
+      "Venore",
+      "Yalahar"
+    ],
+    "PremiumOnly": false
+  },
+  {
+    "DamageType": "Earth",
+    "Name": "Wrath of Nature",
+    "Formula": "exevo gran mas tera",
+    "VocationToCast": [
+      "Druid"
+    ],
+    "Group": "Attack",
+    "Type": "Instant",
+    "Cooldown": "40s ",
+    "GroupCooldown": "4s",
+    "MinimunLevel": 55,
+    "ManaCost": 700,
+    "PriceToLearn": 6000,
+    "CitiesToLearn": [
+      "Edron"
+    ],
+    "PremiumOnly": true
+  }
+]
