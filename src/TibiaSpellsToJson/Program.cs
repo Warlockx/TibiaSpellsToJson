@@ -65,7 +65,27 @@ namespace TibiaSpellsToJson
                 DamageType = damageType;
             }
         }
-     
+        public enum Vocation
+        {
+            druid,
+            sorcerer,
+            paladin,
+            knight
+        }
+
+        public enum SpellGroup
+        {
+            Attack,
+            Healing,
+            Support
+        }
+
+        public enum SpellType
+        {
+            Instant,
+            Rune
+        }
+
         private static HttpClient _client;
         public static void Main(string[] args)
         {
@@ -91,13 +111,13 @@ namespace TibiaSpellsToJson
             Console.ReadLine();
         }
 
-        private static async Task<IEnumerable<Spell>> GetSpells(string vocation,string group,string type, bool premiumOnly)
+        private static async Task<IEnumerable<Spell>> GetSpells(Vocation? vocation, SpellGroup? group, SpellType? type, bool premiumOnly)
         {
             HttpContent postContent = new FormUrlEncodedContent(new[]
                {
-                new KeyValuePair<string, string>("vocation", vocation ?? ""),
-                new KeyValuePair<string, string>("group", group ?? ""),
-                new KeyValuePair<string, string>("type", type ?? ""),
+                new KeyValuePair<string, string>("vocation", vocation.ToString() ?? ""),
+                new KeyValuePair<string, string>("group", group.ToString() ?? ""),
+                new KeyValuePair<string, string>("type", type.ToString() ?? ""),
                 new KeyValuePair<string, string>("premium",premiumOnly ? "yes" : "")
                });
 
