@@ -1,7 +1,5 @@
 [
   {
-    "SoulPoints": 5,
-    "Charges": 1,
     "Name": "Animate Dead Rune",
     "Formula": "adana mort",
     "VocationToCast": [
@@ -24,10 +22,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 5,
+    "Charges": 1,
+    "DamageType": null
   },
   {
-    "DamageType": "var.",
     "Name": "Annihilation",
     "Formula": "exori gran ico",
     "VocationToCast": [
@@ -49,10 +49,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "var."
   },
   {
-    "DamageType": "Fire",
     "Name": "Apprentice's Strike",
     "Formula": "exori min flam",
     "VocationToCast": [
@@ -79,10 +81,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Fire"
   },
   {
-    "DamageType": null,
     "Name": "Arrow Call",
     "Formula": "exevo infir con",
     "VocationToCast": [
@@ -98,11 +102,12 @@
     "CitiesToLearn": [
       "Dawnport"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 1,
+    "Charges": 3,
+    "DamageType": null
   },
   {
-    "SoulPoints": 3,
-    "Charges": 4,
     "Name": "Avalanche Rune",
     "Formula": "adori mas frigo",
     "VocationToCast": [
@@ -128,10 +133,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 3,
+    "Charges": 4,
+    "DamageType": "Ice"
   },
   {
-    "DamageType": "Var.",
     "Name": "Berserk",
     "Formula": "exori",
     "VocationToCast": [
@@ -153,10 +160,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Var."
   },
   {
-    "DamageType": null,
     "Name": "Blood Rage",
     "Formula": "utito tempo",
     "VocationToCast": [
@@ -172,10 +181,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Bruise Bane",
     "Formula": "exura infir ico",
     "VocationToCast": [
@@ -191,10 +202,12 @@
     "CitiesToLearn": [
       "Dawnport"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": "var.",
     "Name": "Brutal Strike",
     "Formula": "exori ico",
     "VocationToCast": [
@@ -216,10 +229,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "var."
   },
   {
-    "DamageType": "Energy",
     "Name": "Buzz",
     "Formula": "exori infir vis",
     "VocationToCast": [
@@ -235,10 +250,12 @@
     "CitiesToLearn": [
       "Dawnport"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Energy"
   },
   {
-    "DamageType": null,
     "Name": "Cancel Invisibility",
     "Formula": "exana ina",
     "VocationToCast": [
@@ -260,10 +277,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Challenge",
     "Formula": "exeta res",
     "VocationToCast": [
@@ -279,11 +298,12 @@
     "CitiesToLearn": [
       "Eremo's isle"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "SoulPoints": 2,
-    "Charges": 1,
     "Name": "Chameleon Rune",
     "Formula": "adevo ina",
     "VocationToCast": [
@@ -309,10 +329,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 2,
+    "Charges": 1,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Charge",
     "Formula": "utani tempo hur",
     "VocationToCast": [
@@ -328,10 +350,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": "Ice",
     "Name": "Chill Out",
     "Formula": "exevo infir frigo hur",
     "VocationToCast": [
@@ -347,10 +371,12 @@
     "CitiesToLearn": [
       "Dawnport"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Ice"
   },
   {
-    "DamageType": null,
     "Name": "Conjure Arrow",
     "Formula": "exevo con",
     "VocationToCast": [
@@ -376,10 +402,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 1,
+    "Charges": 10,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Conjure Bolt",
     "Formula": "exevo con mort",
     "VocationToCast": [
@@ -401,10 +429,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 2,
+    "Charges": 5,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Conjure Explosive Arrow",
     "Formula": "exevo con flam",
     "VocationToCast": [
@@ -430,10 +460,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 3,
+    "Charges": 8,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Conjure Piercing Bolt",
     "Formula": "exevo con grav",
     "VocationToCast": [
@@ -455,10 +487,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 3,
+    "Charges": 5,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Conjure Poisoned Arrow",
     "Formula": "exevo con pox",
     "VocationToCast": [
@@ -484,10 +518,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 2,
+    "Charges": 7,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Conjure Power Bolt",
     "Formula": "exevo con vis",
     "VocationToCast": [
@@ -503,10 +539,12 @@
     "CitiesToLearn": [
       "Eremo's isle"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 4,
+    "Charges": 10,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Conjure Sniper Arrow",
     "Formula": "exevo con hur",
     "VocationToCast": [
@@ -528,11 +566,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 3,
+    "Charges": 5,
+    "DamageType": null
   },
   {
-    "SoulPoints": 3,
-    "Charges": 1,
     "Name": "Convince Creature Rune",
     "Formula": "adeta sio",
     "VocationToCast": [
@@ -558,10 +597,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 3,
+    "Charges": 1,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Creature Illusion",
     "Formula": "utevo res ina \"creature\"",
     "VocationToCast": [
@@ -589,10 +630,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Cure Bleeding",
     "Formula": "exana kor",
     "VocationToCast": [
@@ -615,10 +658,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Cure Burning",
     "Formula": "exana flam",
     "VocationToCast": [
@@ -640,10 +685,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Cure Curse",
     "Formula": "exana mort",
     "VocationToCast": [
@@ -665,10 +712,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Cure Electrification",
     "Formula": "exana vis",
     "VocationToCast": [
@@ -690,10 +739,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Cure Poison",
     "Formula": "exana pox",
     "VocationToCast": [
@@ -723,11 +774,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "SoulPoints": 1,
-    "Charges": 1,
     "Name": "Cure Poison Rune",
     "Formula": "adana pox",
     "VocationToCast": [
@@ -753,10 +805,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 1,
+    "Charges": 1,
+    "DamageType": null
   },
   {
-    "DamageType": "Death",
     "Name": "Curse",
     "Formula": "utori mort",
     "VocationToCast": [
@@ -778,10 +832,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Death"
   },
   {
-    "DamageType": "Death",
     "Name": "Death Strike",
     "Formula": "exori mort",
     "VocationToCast": [
@@ -803,11 +859,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Death"
   },
   {
-    "SoulPoints": 2,
-    "Charges": 3,
     "Name": "Destroy Field Rune",
     "Formula": "adito grav",
     "VocationToCast": [
@@ -836,11 +893,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 2,
+    "Charges": 3,
+    "DamageType": null
   },
   {
-    "SoulPoints": 3,
-    "Charges": 3,
     "Name": "Disintegrate Rune",
     "Formula": "adito tera",
     "VocationToCast": [
@@ -864,10 +922,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 3,
+    "Charges": 3,
+    "DamageType": null
   },
   {
-    "DamageType": "Holy",
     "Name": "Divine Caldera",
     "Formula": "exevo mas san",
     "VocationToCast": [
@@ -889,10 +949,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Holy"
   },
   {
-    "DamageType": null,
     "Name": "Divine Healing",
     "Formula": "exura san",
     "VocationToCast": [
@@ -918,10 +980,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": "Holy",
     "Name": "Divine Missile",
     "Formula": "exori san",
     "VocationToCast": [
@@ -943,10 +1007,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Holy"
   },
   {
-    "DamageType": "Energy",
     "Name": "Electrify",
     "Formula": "utori vis",
     "VocationToCast": [
@@ -968,10 +1034,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Energy"
   },
   {
-    "DamageType": null,
     "Name": "Enchant Party",
     "Formula": "utori mas sio",
     "VocationToCast": [
@@ -987,10 +1055,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Enchant Spear",
     "Formula": "exeta con",
     "VocationToCast": [
@@ -1012,10 +1082,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 3,
+    "Charges": 1,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Enchant Staff",
     "Formula": "exeta vis",
     "VocationToCast": [
@@ -1031,10 +1103,12 @@
     "CitiesToLearn": [
       "Eremo's isle"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 1,
+    "DamageType": null
   },
   {
-    "DamageType": "Energy",
     "Name": "Energy Beam",
     "Formula": "exevo vis lux",
     "VocationToCast": [
@@ -1060,11 +1134,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Energy"
   },
   {
-    "SoulPoints": 5,
-    "Charges": 2,
     "Name": "Energy Bomb Rune",
     "Formula": "adevo mas vis",
     "VocationToCast": [
@@ -1086,11 +1161,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 5,
+    "Charges": 2,
+    "DamageType": "Energy"
   },
   {
-    "SoulPoints": 2,
-    "Charges": 3,
     "Name": "Energy Field Rune",
     "Formula": "adevo grav vis",
     "VocationToCast": [
@@ -1118,10 +1194,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 2,
+    "Charges": 3,
+    "DamageType": "Energy"
   },
   {
-    "DamageType": "Energy",
     "Name": "Energy Strike",
     "Formula": "exori vis",
     "VocationToCast": [
@@ -1144,11 +1222,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Energy"
   },
   {
-    "SoulPoints": 5,
-    "Charges": 4,
     "Name": "Energy Wall Rune",
     "Formula": "adevo mas grav vis",
     "VocationToCast": [
@@ -1176,10 +1255,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 5,
+    "Charges": 4,
+    "DamageType": "Energy"
   },
   {
-    "DamageType": "Energy",
     "Name": "Energy Wave",
     "Formula": "exevo vis hur",
     "VocationToCast": [
@@ -1205,10 +1286,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Energy"
   },
   {
-    "DamageType": "Earth",
     "Name": "Envenom",
     "Formula": "utori pox",
     "VocationToCast": [
@@ -1230,10 +1313,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Earth"
   },
   {
-    "DamageType": "Ice",
     "Name": "Eternal Winter",
     "Formula": "exevo gran mas frigo",
     "VocationToCast": [
@@ -1249,10 +1334,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Ice"
   },
   {
-    "DamageType": "Physical",
     "Name": "Ethereal Spear",
     "Formula": "exori con",
     "VocationToCast": [
@@ -1274,11 +1361,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Physical"
   },
   {
-    "SoulPoints": 4,
-    "Charges": 6,
     "Name": "Explosion Rune",
     "Formula": "adevo mas hur",
     "VocationToCast": [
@@ -1306,10 +1394,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 4,
+    "Charges": 6,
+    "DamageType": "Physical"
   },
   {
-    "DamageType": "Var.",
     "Name": "Fierce Berserk",
     "Formula": "exori gran",
     "VocationToCast": [
@@ -1331,10 +1421,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Var."
   },
   {
-    "DamageType": null,
     "Name": "Find Person",
     "Formula": "exiva \"name\"",
     "VocationToCast": [
@@ -1364,11 +1456,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "SoulPoints": 4,
-    "Charges": 2,
     "Name": "Fire Bomb Rune",
     "Formula": "adevo mas flam",
     "VocationToCast": [
@@ -1396,11 +1489,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 4,
+    "Charges": 2,
+    "DamageType": "Fire"
   },
   {
-    "SoulPoints": 1,
-    "Charges": 3,
     "Name": "Fire Field Rune",
     "Formula": "adevo grav flam",
     "VocationToCast": [
@@ -1428,11 +1522,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 1,
+    "Charges": 3,
+    "DamageType": "Fire"
   },
   {
-    "SoulPoints": 4,
-    "Charges": 4,
     "Name": "Fire Wall Rune",
     "Formula": "adevo mas grav flam",
     "VocationToCast": [
@@ -1460,10 +1555,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 4,
+    "Charges": 4,
+    "DamageType": "Fire"
   },
   {
-    "DamageType": "Fire",
     "Name": "Fire Wave",
     "Formula": "exevo flam hur",
     "VocationToCast": [
@@ -1489,11 +1586,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Fire"
   },
   {
-    "SoulPoints": 3,
-    "Charges": 5,
     "Name": "Fireball Rune",
     "Formula": "adori flam",
     "VocationToCast": [
@@ -1515,10 +1613,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 3,
+    "Charges": 5,
+    "DamageType": "Fire"
   },
   {
-    "DamageType": "Fire",
     "Name": "Flame Strike",
     "Formula": "exori flam",
     "VocationToCast": [
@@ -1541,10 +1641,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Fire"
   },
   {
-    "DamageType": null,
     "Name": "Food",
     "Formula": "exevo pan",
     "VocationToCast": [
@@ -1570,10 +1672,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 1,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": "var.",
     "Name": "Front Sweep",
     "Formula": "exori min",
     "VocationToCast": [
@@ -1595,10 +1699,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "var."
   },
   {
-    "DamageType": "Energy",
     "Name": "Great Energy Beam",
     "Formula": "exevo gran vis lux",
     "VocationToCast": [
@@ -1624,11 +1730,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Energy"
   },
   {
-    "SoulPoints": 3,
-    "Charges": 4,
     "Name": "Great Fireball Rune",
     "Formula": "adori mas flam",
     "VocationToCast": [
@@ -1654,10 +1761,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 3,
+    "Charges": 4,
+    "DamageType": "Fire"
   },
   {
-    "DamageType": null,
     "Name": "Great Light",
     "Formula": "utevo gran lux",
     "VocationToCast": [
@@ -1687,10 +1796,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": "Var.",
     "Name": "Groundshaker",
     "Formula": "exori mas",
     "VocationToCast": [
@@ -1712,10 +1823,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Var."
   },
   {
-    "DamageType": null,
     "Name": "Haste",
     "Formula": "utani hur",
     "VocationToCast": [
@@ -1740,10 +1853,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Heal Friend",
     "Formula": "exura sio \"name\"",
     "VocationToCast": [
@@ -1765,10 +1880,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Heal Party",
     "Formula": "utura mas sio",
     "VocationToCast": [
@@ -1784,11 +1901,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "SoulPoints": 2,
-    "Charges": 10,
     "Name": "Heavy Magic Missile Rune",
     "Formula": "adori vis",
     "VocationToCast": [
@@ -1816,10 +1934,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 2,
+    "Charges": 10,
+    "DamageType": "Energy"
   },
   {
-    "DamageType": "Fire",
     "Name": "Hell's Core",
     "Formula": "exevo gran mas flam",
     "VocationToCast": [
@@ -1835,10 +1955,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Fire"
   },
   {
-    "DamageType": "Holy",
     "Name": "Holy Flash",
     "Formula": "utori san",
     "VocationToCast": [
@@ -1860,11 +1982,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Holy"
   },
   {
-    "SoulPoints": 3,
-    "Charges": 5,
     "Name": "Holy Missile Rune",
     "Formula": "adori san",
     "VocationToCast": [
@@ -1886,10 +2009,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 3,
+    "Charges": 5,
+    "DamageType": "Holy"
   },
   {
-    "DamageType": "Ice",
     "Name": "Ice Strike",
     "Formula": "exori frigo",
     "VocationToCast": [
@@ -1912,10 +2037,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Ice"
   },
   {
-    "DamageType": "Ice",
     "Name": "Ice Wave",
     "Formula": "exevo frigo hur",
     "VocationToCast": [
@@ -1941,11 +2068,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Ice"
   },
   {
-    "SoulPoints": 3,
-    "Charges": 5,
     "Name": "Icicle Rune",
     "Formula": "adori frigo",
     "VocationToCast": [
@@ -1967,10 +2095,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 3,
+    "Charges": 5,
+    "DamageType": "Ice"
   },
   {
-    "DamageType": "Fire",
     "Name": "Ignite",
     "Formula": "utori flam",
     "VocationToCast": [
@@ -1992,10 +2122,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Fire"
   },
   {
-    "DamageType": "Physical",
     "Name": "Inflict Wound",
     "Formula": "utori kor",
     "VocationToCast": [
@@ -2017,10 +2149,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Physical"
   },
   {
-    "DamageType": null,
     "Name": "Intense Healing",
     "Formula": "exura gran",
     "VocationToCast": [
@@ -2049,11 +2183,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "SoulPoints": 2,
-    "Charges": 1,
     "Name": "Intense Healing Rune",
     "Formula": "adura gran",
     "VocationToCast": [
@@ -2079,10 +2214,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 2,
+    "Charges": 1,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Intense Recovery",
     "Formula": "utura gran",
     "VocationToCast": [
@@ -2105,10 +2242,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Intense Wound Cleansing",
     "Formula": "exura gran ico",
     "VocationToCast": [
@@ -2130,10 +2269,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Invisible",
     "Formula": "utana vid",
     "VocationToCast": [
@@ -2161,10 +2302,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Levitate",
     "Formula": "exani hur \"up|down\"",
     "VocationToCast": [
@@ -2189,10 +2332,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Light",
     "Formula": "utevo lux",
     "VocationToCast": [
@@ -2222,10 +2367,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Light Healing",
     "Formula": "exura",
     "VocationToCast": [
@@ -2254,11 +2401,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "SoulPoints": 1,
-    "Charges": 10,
     "Name": "Light Magic Missile Rune",
     "Formula": "adori min vis",
     "VocationToCast": [
@@ -2286,10 +2434,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 1,
+    "Charges": 10,
+    "DamageType": "Energy"
   },
   {
-    "DamageType": "Energy",
     "Name": "Lightning",
     "Formula": "exori amp vis",
     "VocationToCast": [
@@ -2311,10 +2461,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Energy"
   },
   {
-    "DamageType": null,
     "Name": "Magic Patch",
     "Formula": "exura infir",
     "VocationToCast": [
@@ -2332,10 +2484,12 @@
     "CitiesToLearn": [
       "Dawnport"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Magic Rope",
     "Formula": "exani tera",
     "VocationToCast": [
@@ -2360,10 +2514,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Magic Shield",
     "Formula": "utamo vita",
     "VocationToCast": [
@@ -2391,11 +2547,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "SoulPoints": 5,
-    "Charges": 3,
     "Name": "Magic Wall Rune",
     "Formula": "adevo grav tera",
     "VocationToCast": [
@@ -2417,10 +2574,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 5,
+    "Charges": 3,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Mass Healing",
     "Formula": "exura gran mas res",
     "VocationToCast": [
@@ -2442,10 +2601,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": "Earth",
     "Name": "Mud Attack",
     "Formula": "exori infir tera",
     "VocationToCast": [
@@ -2461,11 +2622,12 @@
     "CitiesToLearn": [
       "Dawnport"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Earth"
   },
   {
-    "SoulPoints": 3,
-    "Charges": 1,
     "Name": "Paralyse Rune",
     "Formula": "adana ani",
     "VocationToCast": [
@@ -2487,10 +2649,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 3,
+    "Charges": 1,
+    "DamageType": null
   },
   {
-    "DamageType": "Physical",
     "Name": "Physical Strike",
     "Formula": "exori moe ico",
     "VocationToCast": [
@@ -2512,11 +2676,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Physical"
   },
   {
-    "SoulPoints": 2,
-    "Charges": 2,
     "Name": "Poison Bomb Rune",
     "Formula": "adevo mas pox",
     "VocationToCast": [
@@ -2538,11 +2703,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 2,
+    "Charges": 2,
+    "DamageType": "Earth"
   },
   {
-    "SoulPoints": 1,
-    "Charges": 3,
     "Name": "Poison Field Rune",
     "Formula": "adevo grav pox",
     "VocationToCast": [
@@ -2570,11 +2736,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 1,
+    "Charges": 3,
+    "DamageType": "Earth"
   },
   {
-    "SoulPoints": 3,
-    "Charges": 4,
     "Name": "Poison Wall Rune",
     "Formula": "adevo mas grav pox",
     "VocationToCast": [
@@ -2602,10 +2769,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 3,
+    "Charges": 4,
+    "DamageType": "Earth"
   },
   {
-    "DamageType": null,
     "Name": "Protect Party",
     "Formula": "utamo mas sio",
     "VocationToCast": [
@@ -2621,10 +2790,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Protector",
     "Formula": "utamo tempo",
     "VocationToCast": [
@@ -2640,10 +2811,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": "Energy",
     "Name": "Rage of the Skies",
     "Formula": "exevo gran mas vis",
     "VocationToCast": [
@@ -2659,10 +2832,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Energy"
   },
   {
-    "DamageType": null,
     "Name": "Recovery",
     "Formula": "utura",
     "VocationToCast": [
@@ -2685,10 +2860,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Salvation",
     "Formula": "exura gran san",
     "VocationToCast": [
@@ -2710,10 +2887,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": "Fire",
     "Name": "Scorch",
     "Formula": "exevo infir flam hur",
     "VocationToCast": [
@@ -2729,10 +2908,12 @@
     "CitiesToLearn": [
       "Dawnport"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Fire"
   },
   {
-    "DamageType": null,
     "Name": "Sharpshooter",
     "Formula": "utito tempo san",
     "VocationToCast": [
@@ -2748,11 +2929,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "SoulPoints": 3,
-    "Charges": 3,
     "Name": "Soulfire Rune",
     "Formula": "adevo res flam",
     "VocationToCast": [
@@ -2775,11 +2957,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 3,
+    "Charges": 3,
+    "DamageType": "Fire"
   },
   {
-    "SoulPoints": 2,
-    "Charges": 10,
     "Name": "Stalagmite Rune",
     "Formula": "adori tera",
     "VocationToCast": [
@@ -2807,11 +2990,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 2,
+    "Charges": 10,
+    "DamageType": "Earth"
   },
   {
-    "SoulPoints": 3,
-    "Charges": 4,
     "Name": "Stone Shower Rune",
     "Formula": "adori mas tera",
     "VocationToCast": [
@@ -2833,10 +3017,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 3,
+    "Charges": 4,
+    "DamageType": "Earth"
   },
   {
-    "DamageType": "Energy",
     "Name": "Strong Energy Strike",
     "Formula": "exori gran vis",
     "VocationToCast": [
@@ -2858,10 +3044,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Energy"
   },
   {
-    "DamageType": "Holy",
     "Name": "Strong Ethereal Spear",
     "Formula": "exori gran con",
     "VocationToCast": [
@@ -2883,10 +3071,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Holy"
   },
   {
-    "DamageType": "Fire",
     "Name": "Strong Flame Strike",
     "Formula": "exori gran flam",
     "VocationToCast": [
@@ -2908,10 +3098,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Fire"
   },
   {
-    "DamageType": null,
     "Name": "Strong Haste",
     "Formula": "utani gran hur",
     "VocationToCast": [
@@ -2934,10 +3126,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": "Ice",
     "Name": "Strong Ice Strike",
     "Formula": "exori gran frigo",
     "VocationToCast": [
@@ -2959,10 +3153,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Ice"
   },
   {
-    "DamageType": "Ice",
     "Name": "Strong Ice Wave",
     "Formula": "exevo gran frigo hur",
     "VocationToCast": [
@@ -2984,10 +3180,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Ice"
   },
   {
-    "DamageType": "Earth",
     "Name": "Strong Terra Strike",
     "Formula": "exori gran tera",
     "VocationToCast": [
@@ -3009,11 +3207,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Earth"
   },
   {
-    "SoulPoints": 5,
-    "Charges": 3,
     "Name": "Sudden Death Rune",
     "Formula": "adori gran mort",
     "VocationToCast": [
@@ -3039,10 +3238,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 5,
+    "Charges": 3,
+    "DamageType": "Death"
   },
   {
-    "DamageType": null,
     "Name": "Summon Creature",
     "Formula": "utevo res \"creature\"",
     "VocationToCast": [
@@ -3070,10 +3271,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Swift Foot",
     "Formula": "utamo tempo san",
     "VocationToCast": [
@@ -3089,10 +3292,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": "Earth",
     "Name": "Terra Strike",
     "Formula": "exori tera",
     "VocationToCast": [
@@ -3115,10 +3320,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Earth"
   },
   {
-    "DamageType": "Earth",
     "Name": "Terra Wave",
     "Formula": "exevo tera hur",
     "VocationToCast": [
@@ -3144,11 +3351,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Earth"
   },
   {
-    "SoulPoints": 3,
-    "Charges": 4,
     "Name": "Thunderstorm Rune",
     "Formula": "adori mas vis",
     "VocationToCast": [
@@ -3170,10 +3378,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 3,
+    "Charges": 4,
+    "DamageType": "Energy"
   },
   {
-    "DamageType": null,
     "Name": "Train Party",
     "Formula": "utito mas sio",
     "VocationToCast": [
@@ -3189,10 +3399,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": "Energy",
     "Name": "Ultimate Energy Strike",
     "Formula": "exori max vis",
     "VocationToCast": [
@@ -3208,10 +3420,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Energy"
   },
   {
-    "DamageType": "Fire",
     "Name": "Ultimate Flame Strike",
     "Formula": "exori max flam",
     "VocationToCast": [
@@ -3227,10 +3441,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Fire"
   },
   {
-    "DamageType": null,
     "Name": "Ultimate Healing",
     "Formula": "exura vita",
     "VocationToCast": [
@@ -3258,11 +3474,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "SoulPoints": 3,
-    "Charges": 1,
     "Name": "Ultimate Healing Rune",
     "Formula": "adura vita",
     "VocationToCast": [
@@ -3288,10 +3505,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 3,
+    "Charges": 1,
+    "DamageType": null
   },
   {
-    "DamageType": "Ice",
     "Name": "Ultimate Ice Strike",
     "Formula": "exori max frigo",
     "VocationToCast": [
@@ -3307,10 +3526,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Ice"
   },
   {
-    "DamageType": null,
     "Name": "Ultimate Light",
     "Formula": "utevo vis lux",
     "VocationToCast": [
@@ -3333,10 +3554,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": "Earth",
     "Name": "Ultimate Terra Strike",
     "Formula": "exori max tera",
     "VocationToCast": [
@@ -3352,10 +3575,12 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Earth"
   },
   {
-    "DamageType": "Var.",
     "Name": "Whirlwind Throw",
     "Formula": "exori hur",
     "VocationToCast": [
@@ -3377,11 +3602,12 @@
       "Svargrond",
       "Yalahar"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Var."
   },
   {
-    "SoulPoints": 5,
-    "Charges": 2,
     "Name": "Wild Growth Rune",
     "Formula": "adevo grav vita",
     "VocationToCast": [
@@ -3397,10 +3623,12 @@
     "CitiesToLearn": [
       "Eremo's isle"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 5,
+    "Charges": 2,
+    "DamageType": null
   },
   {
-    "DamageType": null,
     "Name": "Wound Cleansing",
     "Formula": "exura ico",
     "VocationToCast": [
@@ -3426,10 +3654,12 @@
       "Venore",
       "Yalahar"
     ],
-    "PremiumOnly": false
+    "PremiumOnly": false,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": null
   },
   {
-    "DamageType": "Earth",
     "Name": "Wrath of Nature",
     "Formula": "exevo gran mas tera",
     "VocationToCast": [
@@ -3445,6 +3675,9 @@
     "CitiesToLearn": [
       "Edron"
     ],
-    "PremiumOnly": true
+    "PremiumOnly": true,
+    "SoulPoints": 0,
+    "Charges": 0,
+    "DamageType": "Earth"
   }
 ]

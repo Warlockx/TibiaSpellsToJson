@@ -16,7 +16,7 @@ namespace TibiaSpellsToJson
     public class Program
     {
        
-        public abstract class Spell
+        public class Spell
         {
             public string Name;
             public string Formula;
@@ -30,8 +30,11 @@ namespace TibiaSpellsToJson
             public int PriceToLearn;
             public string[] CitiesToLearn;
             public bool PremiumOnly;
+            public int SoulPoints;
+            public int Charges;
+            public string DamageType;
 
-            protected Spell(string name, string formula, string[] vocationToCast, string group, string type, string cooldown, string groupCooldown, int minimunLevel, int manaCost, int priceToLearn, string[] citiesToLearn, bool premiumOnly)
+            public Spell(string name, string formula, string[] vocationToCast, string group, string type, string cooldown, string groupCooldown, int minimunLevel, int manaCost, int priceToLearn, string[] citiesToLearn, bool premiumOnly, int soulPoints, int charges, string damageType)
             {
                 Name = name;
                 Formula = formula;
@@ -45,26 +48,12 @@ namespace TibiaSpellsToJson
                 PriceToLearn = priceToLearn;
                 CitiesToLearn = citiesToLearn;
                 PremiumOnly = premiumOnly;
-            }
-        }
-        public class RuneSpell : Spell
-        {
-            public int SoulPoints;
-            public int Charges;
-            public RuneSpell(string name, string formula, string[] vocationToCast, string group, string type, string cooldown, string groupCooldown, int minimunLevel, int manaCost, int priceToLearn, string[] citiesToLearn, bool premiumOnly, int soulPoints, int charges) : base(name, formula, vocationToCast, group, type, cooldown, groupCooldown, minimunLevel, manaCost, priceToLearn, citiesToLearn, premiumOnly)
-            {
                 SoulPoints = soulPoints;
                 Charges = charges;
-            }
-        }
-        public class InstantSpell : Spell
-        {
-            public string DamageType;
-            public InstantSpell(string name, string formula, string[] vocationToCast, string group, string type, string cooldown, string groupCooldown, int minimunLevel, int manaCost, int priceToLearn, string[] citiesToLearn, bool premiumOnly, string damageType) : base(name, formula, vocationToCast, group, type, cooldown, groupCooldown, minimunLevel, manaCost, priceToLearn, citiesToLearn, premiumOnly)
-            {
                 DamageType = damageType;
             }
         }
+
         public enum Vocation
         {
             druid,
@@ -170,41 +159,38 @@ namespace TibiaSpellsToJson
 
             IEnumerable<HtmlNode> tableNodes = spellDocument.DocumentNode.SelectNodes("//tr");
 
-            string name = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Name:")).InnerText.Remove(0, 5);
-            string formula = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Formula:")).InnerText.Remove(0, 8);
-            string[] vocationToCast = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Vocation:"))
-                                                           .InnerText.Remove(0, 9)
+            string name = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Name:"))?.InnerText?.Remove(0, 5);
+            string formula = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Formula:"))?.InnerText?.Remove(0, 8);
+            string[] vocationToCast = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Vocation:"))?
+                                                           .InnerText?.Remove(0, 9)?
                                                            .Split(new[] { ", " }, StringSplitOptions.RemoveEmptyEntries);
 
-            string group = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Group:")).InnerText.Remove(0, 6);
-            string type = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Type:")).InnerText.Remove(0, 5);
+            string group = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Group:"))?.InnerText?.Remove(0, 6);
+            string type = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Type:"))?.InnerText?.Remove(0, 5);
             string damageType = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Damage Type:"))?.InnerText?.Remove(0, 12);
-            string[] cooldowns = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Cooldown:"))
-                                           .InnerText.Remove(0, 9)
+            string[] cooldowns = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Cooldown:"))?
+                                           .InnerText?.Remove(0, 9)?
                                            .Split(new[] { "(Group: ", ")" }, StringSplitOptions.RemoveEmptyEntries);
 
-            string spellCooldown = cooldowns[0];
-            string groupCooldown = cooldowns[1];
-            int minimunLevel = int.Parse(tableNodes.FirstOrDefault(n => n.InnerText.Contains("Exp Lvl:")).InnerText.Remove(0, 8));
+            string spellCooldown = cooldowns?[0];
+            string groupCooldown = cooldowns?[1];
+            int minimunLevel = int.Parse(tableNodes.FirstOrDefault(n => n.InnerText.Contains("Exp Lvl:"))?.InnerText?.Remove(0, 8));
             int manaCost;
-            int.TryParse(tableNodes.FirstOrDefault(n => n.InnerText.Contains("Mana:")).InnerText.Remove(0, 5), out manaCost);
+            int.TryParse(tableNodes.FirstOrDefault(n => n.InnerText.Contains("Mana:"))?.InnerText?.Remove(0, 5), out manaCost);
             int priceToLearn;
             int.TryParse(tableNodes.FirstOrDefault(n => n.InnerText.Contains("Price:"))?.InnerText?.Remove(0, 6), out priceToLearn);
-            string[] citiesToLearn = tableNodes.FirstOrDefault(n => n.InnerText.Contains("City:"))
-                                               .InnerText.Remove(0, 5)
+            string[] citiesToLearn = tableNodes.FirstOrDefault(n => n.InnerText.Contains("City:"))?
+                                               .InnerText?.Remove(0, 5)?
                                                .Split(new[] { ", " }, StringSplitOptions.RemoveEmptyEntries);
-            bool premiumOnly = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Premium:")).InnerText.Remove(0, 8) == "yes";
-          
+            bool premiumOnly = tableNodes.FirstOrDefault(n => n.InnerText.Contains("Premium:"))?.InnerText?.Remove(0, 8) == "yes";
 
             int soulPoints;
             int charges;
-            if (type != "Rune") return new InstantSpell(name, formula, vocationToCast, group, type, spellCooldown, groupCooldown, minimunLevel, manaCost, priceToLearn, citiesToLearn, premiumOnly, damageType);
-            {
-                soulPoints = int.Parse(tableNodes.FirstOrDefault(n => n.InnerText.Contains("Soul Points:")).InnerText.Remove(0, 12));
-                charges = int.Parse(tableNodes.FirstOrDefault(n => n.InnerText.Contains("Amount:")).InnerText.Remove(0, 7));
-            }
+            int.TryParse(tableNodes.FirstOrDefault(n => n.InnerText.Contains("Soul Points:"))?.InnerText?.Remove(0, 12), out soulPoints);
+            int.TryParse(tableNodes.FirstOrDefault(n => n.InnerText.Contains("Amount:"))?.InnerText?.Remove(0, 7), out charges);
+            
 
-            return new RuneSpell(name, formula, vocationToCast, group, type, spellCooldown, groupCooldown, minimunLevel, manaCost, priceToLearn, citiesToLearn, premiumOnly, soulPoints, charges);
+            return new Spell(name, formula, vocationToCast, group, type, spellCooldown, groupCooldown, minimunLevel, manaCost, priceToLearn, citiesToLearn, premiumOnly, soulPoints, charges,damageType);
         }
     }
 }
